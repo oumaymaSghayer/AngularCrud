@@ -1,0 +1,17 @@
+We're building a simple crud application to manipulate persons  using angular .
+1) Fake json server   : 1. install it npm install -g json-server , 
+                       2.make a db.json file for the mock data ,
+                       3.navigate to db.json file and run the command : json-server --watch db.json
+                       4.http://localhost:3000/persons should return the fake data now. we can preform all crud operations on this fake server.
+                       5.for more info go to -> https://github.com/typicode/json-server
+2) Add bootstrap :  1. npm install bootstrap
+                    2. update angular.json 
+                    3.restart app
+3) generate new components : add , edit and list
+4) Work on the user interface for the diffrent components and build the routing.
+5) Make the Person interface 
+6) Generate a personService that holds the crud operations with our api
+7) inject the service in our components one by one and test 
+
+
+                 
