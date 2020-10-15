@@ -1,7 +1,11 @@
 # PersonApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
-
+1) To run the fake json server   : 1. install it npm install -g json-server , 
+                       
+                       2.navigate to src\assets\data file run the command : json-server --watch db.json
+                       4.http://localhost:3000/persons should return the fake data now. we can preform all crud operations on this fake server.
+                       5.for more info go to -> https://github.com/typicode/json-server
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
